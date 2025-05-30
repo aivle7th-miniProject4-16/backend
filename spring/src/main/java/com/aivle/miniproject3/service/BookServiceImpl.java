@@ -10,7 +10,7 @@ import java.util.List;
 
 @Service
 @RequiredArgsConstructor
-public class BookService1Impl implements BookService1 {
+public class BookServiceImpl implements BookService {
 
     private final BookRepository bookRepository;
 

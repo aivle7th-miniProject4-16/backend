@@ -5,7 +5,7 @@ import com.aivle.miniproject3.dto.StatusDTO;
 
 import java.util.List;
 
-public interface BookService1 {
+public interface BookService {
 
     List<Book> findBooks();
 
