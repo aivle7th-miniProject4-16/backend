@@ -31,7 +31,7 @@ public class BookServiceImpl1 implements BookService1{
         Book b = findBook(id);
 
         if(b == null){
-            return new StatusDTO("error", "존재하지 않는 도서.", null, null);
+            return new StatusDTO("error", "존재하지 않는 도서", null, null);
         }
 
         b.setTitle(book.getTitle());
@@ -48,7 +48,7 @@ public class BookServiceImpl1 implements BookService1{
         Book b = findBook(id);
 
         if(b == null){
-            return new StatusDTO("error", "도서를 찾을 수 없습니다.", null, null);
+            return new StatusDTO("error", "도서를 찾을 수 없습니다", null, null);
         }
 
         bookRepository.deleteById(id);
