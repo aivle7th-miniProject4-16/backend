@@ -17,5 +17,4 @@ public interface BookService1 {
 
     StatusDTO deleteBook(Long id);
 
-
 }
