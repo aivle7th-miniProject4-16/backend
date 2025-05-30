@@ -6,13 +6,18 @@ import com.aivle.miniproject3.repository.BookRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
-import java.time.LocalDateTime;
+import java.util.List;
 
 @Service
 @RequiredArgsConstructor
-public class BookServiceImpl1 implements BookService1{
+public class BookService1Impl implements BookService1 {
 
     private final BookRepository bookRepository;
+
+    @Override
+    public List<Book> findBooks() {
+        return bookRepository.findAll();
+    }
 
     @Override
     public StatusDTO insertBook(Book book) {
