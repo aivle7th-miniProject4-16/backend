@@ -6,14 +6,14 @@ src
 └── main
 ├── java
 │ └── com.aivle.miniproject3
-│ ├── controller # 요청 처리 및 API 매핑
-│ ├── service # 비즈니스 로직 처리
-│ ├── repository # DB 접근
-│ ├── domain # 엔티티 정의
-│ ├── dto # 요청/응답 DTO 정의
-│ └── config # 설정 관련 클래스
-└── resources
-└── application.yml # 환경 설정 파일
+│ ├── controller                 # 요청 처리 및 API 매핑
+│ ├── service                    # 비즈니스 로직 처리
+│ ├── repository                 # DB 접근
+│ ├── domain                     # 엔티티 정의
+│ ├── dto                        # 요청/응답 DTO 정의
+│ └── config                     # 설정 관련 클래스
+├── resources
+│ └── application.yml            # 환경 설정 파일
 ```
 
 ----------------------------------------------------------------------------------------
